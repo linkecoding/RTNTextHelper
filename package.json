@@ -20,13 +20,13 @@
         "ios",
         "android"
     ],
-    "repository": "https://github.com/<your_github_handle>/rtn-texthelper",
+    "repository": "https://github.com/linkecoding/RTNTextHelper",
     "author": "Sidon",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/<your_github_handle>/rtn-texthelper/issues"
+        "url": "https://github.com/linkecoding/RTNTextHelper/issues"
     },
-    "homepage": "https://github.com/<your_github_handle>/rtn-texthelper#readme",
+    "homepage": "https://github.com/linkecoding/RTNTextHelper#readme",
     "devDependencies": {},
     "peerDependencies": {
         "react": "*",
