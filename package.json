@@ -1,0 +1,43 @@
+{
+    "name": "rtn-texthelper",
+    "version": "0.0.1",
+    "description": "Measure text with Turbo Native Modules",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+        "js",
+        "android",
+        "ios",
+        "rtn-calculator.podspec",
+        "!android/build",
+        "!ios/build",
+        "!**/__tests__",
+        "!**/__fixtures__",
+        "!**/__mocks__"
+    ],
+    "keywords": [
+        "react-native",
+        "ios",
+        "android"
+    ],
+    "repository": "https://github.com/<your_github_handle>/rtn-texthelper",
+    "author": "Sidon",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/<your_github_handle>/rtn-texthelper/issues"
+    },
+    "homepage": "https://github.com/<your_github_handle>/rtn-texthelper#readme",
+    "devDependencies": {},
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "codegenConfig": {
+        "name": "RTNTextHelperSpec",
+        "type": "modules",
+        "jsSrcsDir": "js",
+        "android": {
+            "javaPackageName": "com.sample.rtntexthelper"
+        }
+    }
+}
